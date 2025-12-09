@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata below."
+title: "CoT-FD6: Chain-of-Thought Fault Diagnosis Framework for Industry 6.0"
+version: "1.0.0"
+doi: "10.5281/zenodo.17872976"
+date-released: "2025-12-09"
+
+authors:
+  - family-names: "KIANGALA"
+    given-names: "Kahiomba Sonia"
+  - family-names: "WANG"
+    given-names: "Zenghui"
+
+repository-code: "https://github.com/sokikahio-max/CoT-FD6"
+url: "https://github.com/sokikahio-max/CoT-FD6"
+license: "MIT"
+
+abstract: >
+  CoT-FD6 introduces a Chain-of-Thought-driven cognitive reasoning framework
+  for autonomous fault diagnosis in Industry 6.0 systems. It integrates
+  perception, multi-step reasoning, self-verification, and analogical memory
+  to achieve interpretable, self-consistent and self-improving diagnostics.
+  This repository hosts the experimental code, datasets, and notebooks
+  for synthetic motor faults and NASA C-MAPSS turbofan engines (FD001).
+
+keywords:
+  - Industry 6.0
+  - Chain-of-Thought
+  - Fault Diagnosis
+  - Cognitive AI
+  - Analogical Learning
+  - NASA C-MAPSS
+  - Self-Trust Metrics
+  - Reflection Agreement
+  - Autonomous Verification
