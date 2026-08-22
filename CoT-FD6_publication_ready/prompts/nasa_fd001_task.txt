@@ -1,0 +1,3 @@
+NASA C-MAPSS FD001 health-state diagnosis.
+Allowed labels: healthy, degraded.
+RUL is NOT provided and must not be inferred.

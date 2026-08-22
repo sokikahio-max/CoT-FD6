@@ -1,0 +1,52 @@
+Simulated manufacturing motor diagnosis. Allowed labels: winding_short, bearing_friction, overload, sensor_drift, overvoltage.
+
+All feature values below are standardized using TRAINING-set
+statistics only.
+
+FEATURES:
+- current_delta_mean: 1.6279
+- current_z_last: 0.2448
+- current_slope: 1.6471
+- temperature_delta_mean: 0.2837
+- temperature_z_last: -0.3602
+- temperature_slope: 0.3173
+- vibration_delta_mean: -0.6586
+- vibration_z_last: -1.2177
+- vibration_slope: -0.6667
+
+
+
+Choose exactly ONE diagnosis from:
+winding_short, bearing_friction, overload, sensor_drift, overvoltage
+
+Return VALID JSON ONLY.
+
+Use exactly this structure:
+
+{
+  "diagnosis": "<one allowed label>",
+  "alternative": "<one allowed label or null>",
+  "evidence": [
+    {
+      "feature": "<exact supplied feature name>",
+      "direction": "positive|negative|near_zero",
+      "importance": "high|medium|low"
+    }
+  ],
+  "contradictions": [],
+  "rationale": "<concise engineering explanation>"
+}
+
+STRICT RULES:
+
+1. diagnosis must be exactly one allowed label.
+2. Use ONLY feature names supplied above.
+3. Do NOT invent sensor values.
+4. Include between 2 and 4 evidence items only.
+5. Keep the rationale below 60 words.
+6. Keep contradictions empty unless there is a clear contradiction.
+7. Direction definitions:
+   - positive: standardized value > +0.25
+   - negative: standardized value < -0.25
+   - near_zero: between -0.25 and +0.25
+8. Return JSON only. No markdown fences.

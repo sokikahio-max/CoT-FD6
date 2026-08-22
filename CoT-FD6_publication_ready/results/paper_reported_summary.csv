@@ -1,0 +1,27 @@
+analysis,dataset,metric,value,sd,note
+main,synthetic,raw_llm_accuracy,0.998,0.0045,mean ± SD across five repeated API runs
+main,synthetic,raw_llm_macro_f1,0.998,0.0044,mean ± SD across five repeated API runs
+main,synthetic,automatic_coverage,0.73,0.0,agreement with independent verifier
+main,synthetic,selective_accuracy,1.0,0.0,accuracy among accepted cases
+main,synthetic,grounding_rate,0.982,0.0022,feature-direction consistency
+main,nasa_fd001,raw_llm_accuracy,0.618,0.0179,mean ± SD across five repeated API runs
+main,nasa_fd001,raw_llm_macro_f1,0.5869,0.0149,mean ± SD across five repeated API runs
+main,nasa_fd001,verifier_accuracy,0.91,0.0,deterministic component on same 100 cases
+main,nasa_fd001,automatic_coverage,0.66,0.02,agreement with independent verifier
+main,nasa_fd001,selective_accuracy,0.9,0.0075,accuracy among accepted cases
+main,nasa_fd001,error_capture_rate,0.827,0.0159,raw LLM errors escalated by verifier disagreement
+main,nasa_fd001,false_escalation_rate,0.0388,0.0088,correct raw LLM cases escalated
+main,nasa_fd001,grounding_rate,0.9953,0.0016,feature-direction consistency
+retrieval,synthetic,retrieval_only_accuracy,0.98,,100-instance held-out subset
+retrieval,nasa_fd001,retrieval_only_accuracy,0.86,,100-instance held-out subset
+baseline,nasa_fd001,logistic_regression_accuracy,0.92,,same 100 held-out instances
+baseline,nasa_fd001,svm_rbf_accuracy,0.92,,same 100 held-out instances
+baseline,nasa_fd001,random_forest_accuracy,0.93,,same 100 held-out instances
+temporal,nasa_fd001,within_state_adjacent_stability,1.0,,"3 engines, 15 windows"
+temporal,nasa_fd001,raw_accuracy,0.6,,"3 engines, 15 windows"
+temporal,nasa_fd001,mean_cross_trace_agreement,0.973333,,"3 engines, 15 windows"
+temporal,nasa_fd001,transition_offset_windows,-2.0,,all three engines
+api,all,total_calls,8675.0,,reported persistent traces
+api,all,total_input_tokens,6906615.0,,all reported API experiments
+api,all,total_output_tokens,1579798.0,,all reported API experiments
+api,all,estimated_cost_usd,5.2903,,frozen historical token-rate estimate

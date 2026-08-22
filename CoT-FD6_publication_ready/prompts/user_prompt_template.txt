@@ -1,0 +1,47 @@
+<DATASET-SPECIFIC TASK DESCRIPTION>
+
+All feature values below are standardized using TRAINING-set
+statistics only.
+
+FEATURES:
+- <feature_1>: <standardized_value>
+- <feature_2>: <standardized_value>
+...
+- <feature_p>: <standardized_value>
+
+<OPTIONAL TRAINING-REFERENCE CONTEXT>
+
+Choose exactly ONE diagnosis from:
+<ALLOWED LABELS>
+
+Return VALID JSON ONLY.
+
+Use exactly this structure:
+
+{
+  "diagnosis": "<one allowed label>",
+  "alternative": "<one allowed label or null>",
+  "evidence": [
+    {
+      "feature": "<exact supplied feature name>",
+      "direction": "positive|negative|near_zero",
+      "importance": "high|medium|low"
+    }
+  ],
+  "contradictions": [],
+  "rationale": "<concise engineering explanation>"
+}
+
+STRICT RULES:
+
+1. diagnosis must be exactly one allowed label.
+2. Use ONLY feature names supplied above.
+3. Do NOT invent sensor values.
+4. Include between 2 and 4 evidence items only.
+5. Keep the rationale below 60 words.
+6. Keep contradictions empty unless there is a clear contradiction.
+7. Direction definitions:
+   - positive: standardized value > +0.25
+   - negative: standardized value < -0.25
+   - near_zero: between -0.25 and +0.25
+8. Return JSON only. No markdown fences.

@@ -1,0 +1,30 @@
+file,category,rows,columns,bytes,sha256,purpose
+ablation_metrics.csv,results,24,16,4084,856c6d903081b02db557a94b0d9edf3de95e10abe12ac87ea9fac0c9c8d5090c,Per-repeat A1-A4 ablation metrics.
+ablation_predictions.csv,results,864,29,246887,efbabd14319f81af31188387668129f4c595a6fadae77662139547b0eca9b727,Instance-level A1-A4 ablation predictions.
+api_cost_latency_summary.csv,results,9,10,1104,e8f2d0d51130b54ff9d34632c22c0e82f98b00619d2ff4bf48b7e9344be8eefe,"API call counts, success rate, latency, token usage, and estimated cost by experiment."
+baseline_metrics.csv,results,12,8,1286,cbe594d4e91602515d56bd07816c9032890f5bf516cc4081a2dd4d48bcf065a4,"Conventional Logistic Regression, SVM-RBF, and Random Forest baselines on full and like-for-like test scopes."
+cotfd6_main_metrics_by_repeat.csv,results,10,29,3313,8c3eb8398e80aa5573ead9b9a3162f93c2b7ba338b03d56a33807b1346a3392d,Per-repeat main-experiment metrics.
+cotfd6_main_metrics_mean_sd.csv,results,4,55,2782,dd17921217b0d5e8fdc4fdbdafafcb40cb904e58012d6881b6bba7d39a81a43a,Mean and standard deviation summary for the main stochastic experiments.
+cotfd6_main_predictions.csv,results,1000,34,333474,fb3988283aab1905ef356cbfbde117e9dafa0de4085b6c14c40634ae9545b62a,"Instance-level CoT-FD6 predictions for the main 100-instance, five-repeat experiments."
+cotfd6_main_raw_traces.csv,results,5000,22,3569077,9474d3388a669f995b96ca8869c23e8fbd9b5eef8fdee7d9b892b8d921ef4d4f,Individual LLM traces underlying the main experiment.
+experiment_config.json,config,,,685,dd2c1ed959f2335de24be5dee16342460df3fd5eb27b9a28115d952ed0c9836c,Active experimental configuration used in the manuscript-facing workflow.
+explanation_grounding_summary.csv,results,8,13,1410,3d7e4e603d68bb746a5a4ce85f1d8e5bd505de449d3f7a10cc70256a7854f882,Feature-direction grounding and unsupported-evidence summaries.
+full100_llm_vs_memory_by_repeat.csv,results,10,10,560,b93a9cb4ff5c84c6a17031174a41a113314596ada396ee54131f3c4456e0820c,Per-repeat comparison of raw LLM and retrieval-only predictions.
+full100_memory_only_predictions.csv,results,200,13,54552,079b8007434d13307c4eaab49078bd442a3529e4707d042c54add24f0d16e6e2,Retrieval-only predictions on the fixed 100-instance subsets.
+full100_memory_only_summary.csv,results,2,10,356,e278a9fae7a3575d3ceea4e481249657f3f1614f59007f9e0724b5198bab1705,Retrieval-only performance and integrity summary on the fixed 100-instance subsets.
+llm_shap_feature_overlap.csv,results,5000,18,934181,cf2a7751c850d122fc42972a6242e0c357728ad13b9842c94df4c4fae87e9d80,Trace-level overlap between LLM evidence features and RF-SHAP top-k features.
+llm_shap_feature_overlap_summary.csv,results,2,9,372,b75f27678c2176f05a8c6f8a65607fc1ed04ed96ebf9f177920758e8c2f879dc,Dataset-level summary of LLM/RF-SHAP feature correspondence.
+memory_integrity_instance_audit.csv,results,72,13,19762,4528fbb176b3535181d37a22ddb897f561c4db78c446c19e14dd80c7a93cb25d,Instance-level training-reference leakage/integrity audit.
+memory_integrity_summary.csv,results,2,10,438,5f1ccf25ac1ce41a9db7404f85370cc7ceb26ce009d2f2fd688162f99051a881,"Summary of self-reference, non-training-reference, and same-group leakage checks."
+nasa_cost_sensitivity.csv,results,40,9,1748,3576f1c216ac69b06da317f07b453b116e8a6cc1e260d0de31008fe537a7f5ca,NASA false-negative/false-positive relative-loss sensitivity results.
+nasa_governance_accepted_confusion.csv,results,5,14,763,b949340f4c2a2e56683feb8b331527adddd693a52a998c22cf3e9274033d4c51,Confusion counts and coverage for NASA cases accepted by LLM-verifier agreement.
+nasa_raw_confusion_counts.csv,results,10,12,892,f9fde9961823285d2f945fbea2a4fe4ca5e9311315c8bf305ae109d84835d21c,"NASA raw confusion counts for conventional, retrieval, verifier, and repeated LLM predictions."
+nasa_temporal_diagnostic_stability.csv,results,15,34,4970,b592cdb86264ddc67aa9e6fe09a5e2aa115fa316e28b6bbb8c3a6bc98f43b6db,Window-level temporal diagnostic stability results for three NASA engines.
+nasa_temporal_overall_summary.csv,results,1,14,449,cebafbd3ff00e80ea371670bc20fa5f933b80ae1deec1915a788c84f74e64da8,"Overall temporal stability, coverage, grounding, latency, token, and cost summary."
+nasa_temporal_raw_traces.csv,results,75,28,55717,8c43aeab73483fdcc16078d4e4c5b6f1700836b56e6ee5e1a05ef3128cb46c7d,Individual LLM traces underlying the temporal analysis.
+nasa_temporal_unit_summary.csv,results,3,13,870,414c1937ba6baa9404d2b1151d7afefcfec12c7b23c2b014cced823ec7b5fe4e,Per-engine temporal stability and transition-offset summary.
+rf_shap_global_importance.csv,results,54,4,2575,84aadf32cf1fc5e088761bee563a609811b9716fe1d7b7b85b42698be2b654d9,Dataset-level Random Forest SHAP global feature importance.
+rf_shap_top_features.csv,results,200,9,68017,b51bb91a9747fbe71ab7482bf81be559d3cd9ef339277ca67ff9dcbc0afcae5f,Per-instance Random Forest SHAP top features used as an external explanation comparator.
+secondary_experiment_raw_traces.csv,results,3600,22,2598467,896d134ec64f88c3b8aa9701c2d5c7015fbdaf82ff7a6dcea6fbad30ca24ec81,Raw stochastic traces for trace-sensitivity and ablation experiments.
+trace_sensitivity_metrics.csv,results,18,17,2981,45363ef3eed8dde506e00b5411da7267a9f2217e006cff2a7813168e28225622,Per-repeat trace-count sensitivity metrics.
+trace_sensitivity_predictions.csv,results,432,29,138896,62297be7857c569b3d82dd610294b82dbe1490eb8cb037de69e230220e8fffb6,"Instance-level predictions for N=3,5,10 trace-count sensitivity."

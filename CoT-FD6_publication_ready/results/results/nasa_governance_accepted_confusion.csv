@@ -1,0 +1,6 @@
+model,repeat,category,n_instances,TN,FP,FN,TP,accuracy,healthy_recall_specificity,degraded_recall_sensitivity,precision_degraded,coverage,escalated_instances
+Governance-accepted LLM,0,accepted_subset,64,41,6,1,16,0.890625,0.8723404255319149,0.9411764705882353,0.7272727272727273,0.64,36
+Governance-accepted LLM,1,accepted_subset,68,46,6,1,15,0.8970588235294118,0.8846153846153846,0.9375,0.7142857142857143,0.68,32
+Governance-accepted LLM,2,accepted_subset,68,45,6,1,16,0.8970588235294118,0.8823529411764706,0.9411764705882353,0.7272727272727273,0.68,32
+Governance-accepted LLM,3,accepted_subset,64,42,6,0,16,0.90625,0.875,1.0,0.7272727272727273,0.64,36
+Governance-accepted LLM,4,accepted_subset,66,44,6,0,16,0.9090909090909091,0.88,1.0,0.7272727272727273,0.66,34

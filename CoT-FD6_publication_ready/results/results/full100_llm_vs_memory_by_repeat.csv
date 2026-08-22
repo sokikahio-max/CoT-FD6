@@ -1,0 +1,11 @@
+dataset,repeat,n_instances,llm_accuracy,memory_accuracy,llm_memory_agreement,n_disagreements,memory_correct_llm_wrong,llm_correct_memory_wrong,both_wrong
+nasa_fd001,0,100,0.59,0.86,0.67,33,30,3,11
+nasa_fd001,1,100,0.63,0.86,0.69,31,27,4,10
+nasa_fd001,2,100,0.63,0.86,0.69,31,27,4,10
+nasa_fd001,3,100,0.61,0.86,0.67,33,29,4,10
+nasa_fd001,4,100,0.63,0.86,0.69,31,27,4,10
+synthetic,0,100,0.99,0.98,0.97,3,1,2,0
+synthetic,1,100,1.0,0.98,0.98,2,0,2,0
+synthetic,2,100,1.0,0.98,0.98,2,0,2,0
+synthetic,3,100,1.0,0.98,0.98,2,0,2,0
+synthetic,4,100,1.0,0.98,0.98,2,0,2,0

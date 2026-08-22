@@ -1,0 +1,4 @@
+unit,n_windows,accuracy,mean_cross_trace_agreement,within_state_adjacent_stability,true_transition_order,first_predicted_degraded_order,transition_offset_windows,coverage,accepted_accuracy,true_sequence,prediction_sequence,disposition_sequence
+1,5,0.6,1.0,1.0,3,1,-2,0.8,0.75,healthy -> healthy -> degraded -> degraded -> degraded,degraded -> degraded -> degraded -> degraded -> degraded,human_review -> accepted -> accepted -> accepted -> accepted
+5,5,0.6,1.0,1.0,3,1,-2,1.0,0.6,healthy -> healthy -> degraded -> degraded -> degraded,degraded -> degraded -> degraded -> degraded -> degraded,accepted -> accepted -> accepted -> accepted -> accepted
+11,5,0.6,0.9199999999999999,1.0,3,1,-2,0.8,0.75,healthy -> healthy -> degraded -> degraded -> degraded,degraded -> degraded -> degraded -> degraded -> degraded,human_review -> accepted -> accepted -> accepted -> accepted

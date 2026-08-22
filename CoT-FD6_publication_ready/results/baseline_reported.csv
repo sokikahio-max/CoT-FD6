@@ -1,0 +1,13 @@
+dataset,model,scope,n,accuracy,macro_f1,macro_precision,macro_recall
+synthetic,Logistic Regression,full_test,252,0.972222,0.972001,0.972419,0.971795
+synthetic,Logistic Regression,llm_like_for_like,100,0.96,0.959316,0.963235,0.958421
+synthetic,SVM-RBF,full_test,252,0.992063,0.991987,0.99206,0.991987
+synthetic,SVM-RBF,llm_like_for_like,100,0.98,0.979694,0.980383,0.979474
+synthetic,Random Forest,full_test,252,1.0,1.0,1.0,1.0
+synthetic,Random Forest,llm_like_for_like,100,1.0,1.0,1.0,1.0
+nasa_fd001,Logistic Regression,full_test,393,0.933842,0.902426,0.878763,0.934305
+nasa_fd001,Logistic Regression,llm_like_for_like,100,0.92,0.88345,0.861842,0.9125
+nasa_fd001,SVM-RBF,full_test,393,0.928753,0.89492,0.87172,0.926229
+nasa_fd001,SVM-RBF,llm_like_for_like,100,0.92,0.879445,0.867133,0.89375
+nasa_fd001,Random Forest,full_test,393,0.933842,0.899831,0.88348,0.919571
+nasa_fd001,Random Forest,llm_like_for_like,100,0.93,0.892622,0.885775,0.9

@@ -1,0 +1,3 @@
+dataset,n_main_traces,grounded_rate,unsupported_rate,any_overlap_shap_top3,any_overlap_shap_top5,mean_llm_fraction_shap_top3,mean_llm_fraction_shap_top5,shap_top1_used_rate
+nasa_fd001,2500,0.995267,0.004733,0.118,0.268,0.034633,0.085067,0.0308
+synthetic,2500,0.982,0.018,0.8932,1.0,0.380133,0.608133,0.4128

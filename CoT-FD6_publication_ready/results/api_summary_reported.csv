@@ -1,0 +1,10 @@
+dataset,experiment,use_memory,calls,success_rate,latency_mean_s,input_tokens,output_tokens,estimated_cost_usd
+nasa_fd001,ablation_no_memory,False,540,1.0,3.326312,458460,98694,0.341294
+nasa_fd001,ablation_with_memory,True,540,1.0,3.404261,558330,100717,0.384479
+nasa_fd001,main_full,True,2500,1.0,3.346048,2584850,466262,1.779959
+nasa_fd001,temporal_stability,True,75,1.0,3.241801,77685,13997,0.053469
+nasa_fd001,trace_sensitivity,True,720,1.0,3.263226,744390,134098,0.512313
+synthetic,ablation_no_memory,False,540,1.0,3.111856,226260,97103,0.245869
+synthetic,ablation_with_memory,True,540,1.0,3.027589,324075,95947,0.283145
+synthetic,main_full,True,2500,1.0,3.02108,1500475,445464,1.312932
+synthetic,trace_sensitivity,True,720,1.0,3.023943,432090,127516,0.376862

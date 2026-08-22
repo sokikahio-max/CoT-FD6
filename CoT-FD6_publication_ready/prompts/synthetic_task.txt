@@ -1,0 +1,2 @@
+Simulated manufacturing motor diagnosis.
+Allowed labels: winding_short, bearing_friction, overload, sensor_drift, overvoltage.

@@ -1,0 +1,2 @@
+n_engines,n_distinct_windows,accuracy,mean_cross_trace_agreement,within_state_adjacent_stability,automatic_coverage,accepted_accuracy,parse_success_rate,grounded_rate,unsupported_rate,mean_latency_per_trace_s,temporal_input_tokens,temporal_output_tokens,temporal_estimated_cost_usd
+3,15,0.6,0.9733333333333333,1.0,0.8666666666666667,0.6923076923076923,1.0,0.9966666666666666,0.0033333333333333335,3.2418008605731305,77685,13997,0.053469199999999995

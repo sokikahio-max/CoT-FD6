@@ -1,0 +1,7 @@
+dataset,n_traces,accuracy_mean,accuracy_sd,macro_f1_mean,macro_f1_sd,agreement_mean
+synthetic,3,1.0,,1.0,,1.0
+synthetic,5,1.0,,1.0,,1.0
+synthetic,10,1.0,,1.0,,1.0
+nasa_fd001,3,0.6944,0.0481,0.6492,0.0418,0.8426
+nasa_fd001,5,0.6806,0.0241,0.6369,0.0206,0.8083
+nasa_fd001,10,0.7083,0.0417,0.661,0.0362,0.7764

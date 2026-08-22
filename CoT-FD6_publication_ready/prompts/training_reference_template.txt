@@ -1,0 +1,8 @@
+Validated TRAINING references.
+Use these only as weak contextual evidence;
+current sensor evidence has priority:
+
+- training reference <instance_id>:
+  label=<training_label>,
+  similarity=<cosine_similarity>,
+  <feature_1>=<value_1>, <feature_2>=<value_2>, ...

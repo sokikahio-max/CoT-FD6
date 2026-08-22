@@ -1,0 +1,11 @@
+model,repeat,category,n_instances,TN,FP,FN,TP,accuracy,healthy_recall_specificity,degraded_recall_sensitivity,precision_degraded
+Logistic Regression,,full_test,100,74,6,2,18,0.92,0.925,0.9,0.75
+SVM-RBF,,full_test,100,75,5,3,17,0.92,0.9375,0.85,0.7727272727272727
+Random Forest,,full_test,100,76,4,3,17,0.93,0.95,0.85,0.8095238095238095
+Retrieval-only memory,,full_test,100,68,12,2,18,0.86,0.85,0.9,0.6
+Prototype verifier (component),,full_test,100,73,7,2,18,0.91,0.9125,0.9,0.72
+LLM raw diagnosis,0.0,full_test,100,42,38,3,17,0.59,0.525,0.85,0.3090909090909091
+LLM raw diagnosis,1.0,full_test,100,47,33,4,16,0.63,0.5875,0.8,0.32653061224489793
+LLM raw diagnosis,2.0,full_test,100,46,34,3,17,0.63,0.575,0.85,0.3333333333333333
+LLM raw diagnosis,3.0,full_test,100,43,37,2,18,0.61,0.5375,0.9,0.32727272727272727
+LLM raw diagnosis,4.0,full_test,100,45,35,2,18,0.63,0.5625,0.9,0.33962264150943394

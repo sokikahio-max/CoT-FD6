@@ -1,0 +1,3 @@
+dataset,n_instances,majority_accuracy,majority_macro_f1,weighted_accuracy,weighted_macro_f1,mean_memory_label_agreement,self_references,nontraining_references,same_group_references
+nasa_fd001,100,0.86,0.8133333333333332,0.86,0.8133333333333332,0.9533333333333333,0,0,0
+synthetic,100,0.98,0.9788888888888889,0.98,0.9788888888888889,0.9933333333333334,0,0,0
